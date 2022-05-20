@@ -2,7 +2,7 @@ import React from "react";
 import Todo from "./components/Todo";
 import { useRef, useState, useEffect } from "react";
 
-export const url = " https://get-my-db-akshat.herokuapp.com/api/v1";
+export const url = "postgres://tzebihjmhtvhtn:be781e18012a88cb4513adc7863f675105286b2210d4ab72a286009880a114ae@ec2-54-165-90-230.compute-1.amazonaws.com:5432/dahbm8abr89p66/api/v1";
 
 function App() {
   const [todoList, setTodoList] = useState([]);
